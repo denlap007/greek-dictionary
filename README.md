@@ -7,6 +7,7 @@
   - [Quickstart](#quickstart)
   - [Docker](#docker)
       - [Run docker container](#run-docker-container)
+  - [Online Bot](#online-bot)
   - [License](#license)
 
 ## Requirements
@@ -37,6 +38,8 @@ Set the BOT_TOKEN environment variable at runtime
 docker run -d --name greek-dictionary-bot -e "BOT_TOKEN=<THE BOT TOKEN>" denlap/greek-dictionary-bot
 ```
 
-## License
+## Online Bot
+Send message to a deployed [telegram bot](https://telegram.me/greekdictionary_bot) instance
 
+## License
 Licensed under GPL v3.0
