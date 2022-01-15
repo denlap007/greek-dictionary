@@ -1,10 +1,7 @@
 # greek-dictionary-bot
-Telegram Bot for greek dictionary, using as source https://www.greek-language.gr
+**Telegram Bot** for greek dictionary, using as source https://www.greek-language.gr
 
 ## Contents
-
-- [greek-dictionary-bot](#greek-dictionary-bot)
-  - [Contents](#contents)
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [Quickstart](#quickstart)
