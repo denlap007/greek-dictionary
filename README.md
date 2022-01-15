@@ -39,7 +39,4 @@ docker run -d --name greek-dictionary-bot -e "BOT_TOKEN=<THE BOT TOKEN>" denlap/
 
 ## License
 
-Licensed under [GPL v3.0]
-
-[gpl v3.0]: https://hapi.dev/
-[localhost:3000/api-doc]: http://localhost:3000/api-doc
+Licensed under GPL v3.0
