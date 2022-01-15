@@ -3,7 +3,7 @@ import TelegramBot from "node-telegram-bot-api";
 import cheerio from "cheerio";
 
 // The Telegram token you received from @BotFather
-const BOT_TOKEN = process.env.BOT_TOKEN;
+const BOT_TOKEN = `${process.env.BOT_TOKEN}`;
 const DICTIONARY_URL =
   "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html";
 const MAX_STRING_SIZE = 4096;
@@ -22,7 +22,7 @@ bot.onText(/(.+)/, async (msg, match) => {
 
   try {
     const { body } = await request(word);
-    let trans = extractLemma(body);
+    const trans = extractLemma(body);
 
     // check msg size cause library has limits and break msg in multiple messages
     const numOfMessages = Math.ceil(trans.length / MAX_STRING_SIZE);
